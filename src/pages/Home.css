@@ -1,0 +1,106 @@
+
+/* Contenedor principal */
+.home-container {
+  background: linear-gradient(135deg, #fff8f0, #ffe4e1) !important;
+  border-radius: 20px !important;
+  padding: 2rem !important;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Título principal */
+.home-container h1 {
+  font-size: 2.5rem !important;
+  font-weight: 700 !important;
+  color: #b22222 !important;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1) !important;
+}
+
+/* Subtítulos */
+.home-container h2 {
+  font-size: 1.8rem !important;
+  font-weight: 600 !important;
+  color: #333 !important;
+  border-bottom: 2px solid #b22222 !important;
+  display: inline-block !important;
+  margin-bottom: 0.8rem !important;
+  padding-bottom: 0.2rem !important;
+}
+
+/* Texto */
+.home-container p,
+.home-container li {
+  color: #444 !important;
+  line-height: 1.6 !important;
+}
+
+.banner-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 30px !important;
+  margin-top: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden; /* fuerza recorte */
+}
+
+
+/* Botón CTA */
+.home-container .btn-menu {
+  background-color: #b22222 !important;
+  color: white !important;
+  padding: 0.8rem 1.5rem !important;
+  border-radius: 50px !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease-in-out !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+}
+
+.home-container .btn-menu:hover {
+  background-color: #8b0000 !important;
+  transform: translateY(-2px) !important;
+}
+
+/* Testimonios */
+.home-container blockquote {
+  border-left: 5px solid #b22222 !important;
+  font-style: italic !important;
+  color: #555 !important;
+  margin-bottom: 1rem !important;
+  background: #fffaf7 !important;
+  border-radius: 8px !important;
+  padding: 1rem !important;
+}
+
+/* Encabezado principal */
+.home-container h1 {
+  font-size: 3rem !important;
+  font-weight: 800 !important;
+  color: #8b0000 !important; /* Rojo vino elegante */
+  text-transform: uppercase !important;
+  letter-spacing: 2px !important;
+  margin-bottom: 0.5rem !important;
+  position: relative !important;
+  display: inline-block !important;
+}
+
+/* Línea decorativa debajo del título */
+.home-container h1::after {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 4px;
+  background: linear-gradient(90deg, #b22222, #ffcc70);
+  margin: 0.5rem auto 0 auto;
+  border-radius: 2px;
+}
+
+/* Subtítulo debajo del h1 */
+.home-container .lead {
+  font-size: 1.3rem !important;
+  color: #555 !important;
+  font-style: italic !important;
+  margin-top: 0.5rem !important;
+}
