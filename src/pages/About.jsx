@@ -9,8 +9,12 @@ export default function About() {
     <div className="promociones-container">
       <h1 className="text-center">Ofertas Prehistóricas</h1>
       <p className="text-center lead mb-5">
-        ¡Atrapa estas promociones antes de que se extingan! 🦖 Porciones gigantes,
-        precios cavernarios y un rugido de sabor en cada mordida.
+        <span>
+          ¡Atrapa estas promociones antes de que se extingan! 🦖 
+        </span>
+        <h3 className="personalizado">
+          Porciones gigantes, precios cavernarios y un rugido de sabor en cada mordida.
+        </h3>
       </p>
 
       <div className="promos-grid">

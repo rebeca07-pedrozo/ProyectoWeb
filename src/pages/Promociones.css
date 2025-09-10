@@ -15,6 +15,50 @@
   margin-bottom: 1rem;
 }
 
+/* Párrafo destacado */
+.promociones-container p {
+  text-align: center;
+  margin-bottom: 2rem;
+  line-height: 1.8;
+  padding: 1rem 1.2rem;
+
+  font-family: 'Georgia', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #d43030 !important; /* Dorado elegante */
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+
+  background: #fff678; /* contraste cálido y suave */
+  border-left: 6px solid #cfb417; /* barra lateral para resaltar */
+  border-radius: 8px;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  /* sombra ligera */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Solo el texto dentro del párrafo */
+.promociones-container p span {
+  display: inline-block;
+  animation: pulse 1.5s infinite; /* duración reducida a 1s */
+}
+
+/* Animación de pulso */
+@keyframes pulse {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.04); }
+  100% { transform: scale(1); }
+}
+
+.personalizado {
+  font-family: 'Comic Sans', cursive;
+  font-size:1rem;
+  color: #424242; /* color distintivo */
+  margin-top: 0.5rem;
+}
+
 /* Grid de promociones */
 .promos-grid {
   display: grid;
@@ -47,5 +91,3 @@
   display: block;
   border-radius: 15px;
 }
-
-
