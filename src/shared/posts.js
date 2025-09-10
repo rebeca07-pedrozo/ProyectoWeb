@@ -1,23 +1,113 @@
 
+import sundae from '../assets/sundae.png'; // sube un nivel desde shared a src y luego entra a assets
+import dino from '../assets/dino.png';
+import fondo from '../assets/fondo.jpeg';
+import costillas from '../assets/costillas.jpg';
+import burger from '../assets/burger.jpg';
+import alitas from '../assets/alitas.jpg';
+import ensalada from '../assets/ensalada.jpg';
+import tacos from '../assets/tacos.jpg';
+import sopa from '../assets/sopa.jpg';
+import pizza from '../assets/pizza.jpg';
+import calzone from '../assets/calzone.jpg';
+import malteada from '../assets/malteada.jpg';
+import postre from '../assets/postre.jpg';
+// importa todas las que necesites
+
 export default [
-  { 
-    id: 1, 
-    title: "DinoHamburguer", 
-    content: "Una hamburguesa jurásica: carne 100% a la parrilla, queso fundido y pan artesanal suave. Tan grande y jugosa que solo los verdaderos dinosaurios se atreven a probarla." 
+  // 🥩 Carnívoros Colosales
+  {
+    id: 1,
+    title: "Costillas del T-Rex",
+    description: "Costillas gigantes ahumadas al fuego cavernario y bañadas en salsa volcánica secreta. Un banquete para depredadores hambrientos.",
+    price: 46000,
+    image: costillas,
+    category: "Carnívoros Colosales"
   },
-  { 
-    id: 2, 
-    title: "DinoHotDogs", 
-    content: "El hot dog más salvaje: salchicha premium, pan fresco y nuestras salsas secretas que rugen de sabor. Una explosión irresistible en cada mordida." 
+  {
+    id: 2,
+    title: "BrontoBurger Suprema",
+    description: "Hamburguesa colosal con doble carne jugosa, queso derretido y pan jurásico. Cada mordida es un rugido de sabor.",
+    price: 39000,
+    image: burger,
+    category: "Carnívoros Colosales"
   },
-  { 
-    id: 3, 
-    title: "DinoPizza", 
-    content: "La pizza que domina la era del sabor: masa crujiente, salsa casera y queso derretido sin fin. Cálida, abundante y jurásicamente deliciosa." 
+  {
+    id: 3,
+    title: "Alitas Velociraptor",
+    description: "Alitas crujientes bañadas en salsa magma ardiente. Tan veloces que desaparecerán de tu plato en segundos.",
+    price: 29000,
+    image: alitas,
+    category: "Carnívoros Colosales"
   },
-  { 
-    id: 4, 
-    title: "DinoLasagne", 
-    content: "Capas infinitas de pasta fresca, carne sazonada y cremosa bechamel gratinada. Una receta legendaria que saciaría hasta al T-Rex más hambriento." 
+
+  // 🌿 Herbívoros Salvajes
+  {
+    id: 4,
+    title: "Ensalada DinoVerde",
+    description: "Frescura jurásica: mix de hojas, tomates carnívoros y aderezo secreto de la cueva Dino.",
+    price: 23000,
+    image: ensalada,
+    category: "Herbívoros Salvajes"
+  },
+  {
+    id: 5,
+    title: "Tacos Triceratops",
+    description: "Tortillas rústicas rellenas de carne especiada, queso fundido y hierbas ancestrales. Fuerza herbívora con espíritu carnívoro.",
+    price: 27000,
+    image: tacos,
+    category: "Herbívoros Salvajes"
+  },
+  {
+    id: 6,
+    title: "Sopa del Mamut",
+    description: "Caldo ancestral con carne tierna y verduras prehistóricas que revive hasta al cavernícola más dormido.",
+    price: 31000,
+    image: sopa,
+    category: "Herbívoros Salvajes"
+  },
+
+  // 🍕 Erupciones de Sabor
+  {
+    id: 7,
+    title: "Pizza Meteoro",
+    description: "Masa crujiente horneada en piedra volcánica, cubierta con queso fundido y toppings explosivos. Impacto directo al paladar.",
+    price: 36000,
+    image: pizza,
+    category: "Erupciones de Sabor"
+  },
+  {
+    id: 8,
+    title: "Dino Calzone",
+    description: "Calzone gigante relleno de carne, queso y vegetales jurásicos. Perfecto para un rugido de sabor en cada mordida.",
+    price: 35000,
+    image: calzone,
+    category: "Erupciones de Sabor"
+  },
+
+  // 🍨 Extinciones Dulces
+  {
+    id: 9,
+    title: "DinoSundae Fosilizado",
+    description: "Helado cremoso con sirope volcánico, chispas jurásicas y galleta fosilizada. Un hallazgo dulce de otra era.",
+    price: 18000,
+    image: sundae,
+    category: "Extinciones Dulces"
+  },
+  {
+    id: 10,
+    title: "Meteoro Shake",
+    description: "Malteada jurásica de fresa, chocolate o vainilla, cubierta con crema batida y lluvia de meteoritos de galleta.",
+    price: 20000,
+    image: malteada,
+    category: "Extinciones Dulces"
+  },
+  {
+    id: 11,
+    title: "Trilogía del Edén",
+    description: "Brownie volcánico, cheesecake jurásico y frutas mesozoicas bañadas en miel. Un festín arqueológico de dulzura.",
+    price: 22000,
+    image: postre,
+    category: "Extinciones Dulces"
   }
 ]

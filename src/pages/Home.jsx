@@ -7,7 +7,7 @@ export default function Home() {
     <div className="home-container">
       {/* Bienvenida */}
       <section className="text-center">
-        <h1>🌋 ¡Bienvenido al Territorio Dino! 🦖</h1>
+        <h1>🍕 ¡Bienvenido a la era del sabor! 🦖</h1>
         <p className="lead">
           Sabores gigantes, recetas jurásicas y un ambiente tan acogedor que ni los
           dinosaurios querrán extinguirse.

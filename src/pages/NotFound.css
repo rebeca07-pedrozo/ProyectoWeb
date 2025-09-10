@@ -1,0 +1,48 @@
+
+.notfound-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa; /* Mantiene el contenedor claro de tu web */
+  padding: 2rem;
+  color: #212529; /* Color principal del texto */
+  text-align: center;
+}
+
+.notfound-number {
+  font-size: 6rem;
+  font-weight: 700;
+  color: #dc3545; /* Rojo, como alertar de error */
+  animation: bounce 1.5s infinite;
+}
+
+.notfound-message {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #343a40; /* Color oscuro consistente */
+}
+
+.notfound-submessage {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #6c757d; /* Texto secundario */
+}
+
+.notfound-emoji {
+  font-size: 3rem;
+  margin-top: 1.5rem;
+  animation: float 2s infinite ease-in-out;
+}
+
+/* Animaciones simples para llamar la atención */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
