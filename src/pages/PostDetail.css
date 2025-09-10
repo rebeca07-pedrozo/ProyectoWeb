@@ -1,0 +1,182 @@
+/* Contenedor principal de la página */
+.post-detail-container {
+  background: #ffe4e1;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+/* Encabezado de producto */
+.post-header {
+  text-align: center;
+}
+
+.post-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #b22222;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.post-category {
+  font-size: 1.2rem;
+  color: #888;
+  margin-bottom: 1rem;
+}
+
+/* Imagen del producto */
+.post-image-container {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+/* Descripción del producto */
+.post-description {
+  font-size: 1.2rem;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+/* Precio */
+.post-price h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #b22222;
+  margin-bottom: 1.5rem;
+}
+
+/* Detalles adicionales */
+.post-content {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.post-content h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #b22222;
+  margin-bottom: 1rem;
+}
+
+.post-content h5 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #b22222;
+  margin-top: 1rem;
+}
+
+.ingredients ul {
+  list-style: none;
+  padding: 0;
+}
+
+.ingredients ul li {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+
+.preparation-time p {
+  font-size: 1.1rem;
+}
+
+/* Estilo para los botones */
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #b22222;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #8b0000;
+}
+
+.btn-add-to-cart {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-add-to-cart:hover {
+  background-color: #388e3c;
+}
+
+/* Mensaje emergente a la derecha del botón */
+.added-message {
+  background-color: #72c975; /* Verde de éxito */
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 50%; /* Se coloca a la mitad de la altura del botón */
+  left: 100%; /* Se coloca a la derecha del contenedor del botón */
+  transform: translateY(-50%); /* Centrado verticalmente respecto al botón */
+  width: auto;
+  max-width: 300px;
+  opacity: 0;
+  animation: fadeInOut 2s forwards;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Contenedor del botón y mensaje emergente */
+.btn-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* Estilo para el botón */
+.btn-add-to-cart {
+  background-color: #689fb9;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  margin-right: 10px; /* Espacio entre el botón y el mensaje emergente */
+}
+
+.btn-add-to-cart:hover {
+  background-color: #457a92;
+  color: white;
+}

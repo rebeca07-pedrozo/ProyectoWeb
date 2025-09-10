@@ -36,7 +36,7 @@
 .banner-img {
   width: 75%; /* 100% del ancho disponible */
   height: auto; /* La altura se ajustará proporcionalmente */
-  max-height: 300px; /* Controlar la altura para que no sea demasiado alta */
+  max-height: 400px; /* Controlar la altura para que no sea demasiado alta */
   object-fit: cover; /* Asegura que la imagen cubra el contenedor sin deformarse */
   border-radius: 30px !important;
   margin-top: 1rem;
